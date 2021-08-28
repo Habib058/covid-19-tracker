@@ -1,0 +1,17 @@
+.app{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  }
+  .left{
+    flex: 0.6;
+  }
+  
+  @media (max-width:990px){
+    .app{
+      flex-direction: column;
+    }
+    .right{
+      margin-top: 20px;
+    }
+  }
