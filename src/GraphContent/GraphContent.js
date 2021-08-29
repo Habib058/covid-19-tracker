@@ -1,5 +1,6 @@
 import { Card, CardContent } from '@material-ui/core';
 import React from 'react';
+import LineGraph from '../LineGraph/LineGraph';
 import Table from '../Table/Table';
 
 const GraphContent = ({tableData}) => {
@@ -9,6 +10,7 @@ const GraphContent = ({tableData}) => {
           <h3>Live Cases By Country</h3>
           <Table tableData={tableData}></Table>
           <h3>Worldwide new cases</h3>
+          <LineGraph/>
         </CardContent>
       </Card>
     );
